@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peoples Counter</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+
+    <h1 class="welcome">Welcome to my Inventory Counter</h1>
+    <div class="btn">
+      <p id="welcome-eL"></p>
+      <h1>Inventory Counter</h1>
+      <h2 id="count-el">0</h2>
+
+      <!--Increment Button-->
+
+      <button id="increment-btn" onclick="increment()">Counter</button>
+
+      <!--Save button-->
+
+      <button id="save-btn" onclick="save()">Save</button>
+      <p id="save-el"></p>
+      <p>Previous Count:</p>
+
+      <!--Total Count-->
+      <button id="total-btn" onclick="totalCounting()">Clear</button>
+      <p id="totalCount"></p>
+
+      <!--Reset button-->
+      <button id="reset-btn" onclick="resetCount()">Reset</button>
+    </div>
+
+    <div class="footer"><p>&COPY; DemsyCoda 2024. All Right reserve</p></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
